@@ -1,0 +1,26 @@
+body {
+    margin: 5px;
+}
+
+.ulImages {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+
+    .items {
+        list-style: none;
+    }
+}
+
+.contactMeBtn {
+    background-color: aqua;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    padding: 10px;
+}

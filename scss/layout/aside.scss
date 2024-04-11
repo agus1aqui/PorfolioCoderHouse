@@ -1,0 +1,38 @@
+aside {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #394867;
+    color: #F1F6F9;
+    position: relative;
+    z-index: 20;
+
+    .mainPhoto {
+        width: 250px;
+        height: 250px;
+    }
+
+    .btn {
+        background-color: #44AC95;
+        box-shadow: 0px -8px 0px 0px rgba(0, 0, 0, 0.50) inset;
+        font-size: 30px;
+        font-weight: 700;
+        width: 100%;
+
+        a {
+            color: #267267;
+            text-decoration: none;
+        }
+    }
+
+    .footerAside {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+    }
+    
+}
