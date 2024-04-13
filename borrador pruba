@@ -1,0 +1,81 @@
+<aside class="col-3">
+                <img class="mainPhoto" src="images/aside/mainPhoto.svg" alt="main photo" />
+                <button type="button" class="btn">
+                    <a href="">Contact me</a>
+                </button>
+                <ul class="asideList">
+                    <li class="items">
+                        <img class="asidePhoto" src="images/aside/school.png" />
+                        <span>
+                            CoderHouse
+                        </span>
+                    </li>
+                    <li class="items">
+                        <img class="asidePhoto" src="images/aside/design_services.png" />
+                        <span>
+                            UI/UX
+                        </span>
+                    </li>
+                    <li class="items">
+                        <img class="asidePhoto" src="images/aside/send.png" />
+                        <span>
+                            Argentina
+                        </span>
+                    </li>
+                    <li class="items">
+                        <img class="asidePhoto" src="images/aside/translate.png" />
+                        <span>
+                            Eng / Esp
+                        </span>
+                    </li>
+                </ul>
+                <div class="footerAside">
+                    <div class="col" style="background-color: aqua;">
+                        <ul class="ulImages">
+                            <li class="items">
+                                <img src="images/aside/github.png" alt="Github" />
+                            </li>
+                            <li class="items">
+                                <img src="images/aside/dribbble.png" alt="Dribble" />
+                            </li>
+                            <li class="items">
+
+                                <img src="images/aside/behance-alt.png" alt="Behance" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <div class="col" style="background-color: red;">
+
+
+                <!--header-->
+
+
+                <header class="row" style="background-color: black;">
+                    <div class="col-3">
+                        <button type="button" class="btn">
+                            <a href="">Home</a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn">
+                            <a href=""></a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn">
+                            <a href="">Home</a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn">
+                            <a href="">Home</a>
+                        </button>
+                    </div>
+                </header>
+
+
+
+                ul asideList
+                items

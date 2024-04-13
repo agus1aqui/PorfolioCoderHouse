@@ -1,33 +1,13 @@
-
-@import "./node_modules/bootstrap/scss/functions";
-@import "./node_modules/bootstrap/scss/variables";
-@import "./node_modules/bootstrap/scss/variables-dark";
-
-$theme-colors: map-remove($theme-colors, "info", "light", "dark");
-
-@import "./node_modules/bootstrap/scss/maps";
-@import "./node_modules/bootstrap/scss/mixins";
-@import "./node_modules/bootstrap/scss/root";
-
-$custom-colors: (
-  "custom-color": #900
-);
-
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
-
-
-
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "scss/general/reset.scss";
 
-@import "scss/index.scss";
+@import "scss/layout/body.scss";
+
+@import "scss/layout/header.scss";
 
 @import "scss/layout/aside.scss";
 
+@import "scss/layout/footer.scss";
 
-$backgrond-blue: #070ae7;
-$accent-green: (
-    "verde": #44ac95
-);
+@import "scss/index.scss";
